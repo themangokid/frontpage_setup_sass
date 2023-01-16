@@ -1,0 +1,47 @@
+/* Declare a variable for the color used throughout the website */
+* {
+    margin:0px;
+    padding: 0px;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+:root {
+    --site-color: #4CAF50;
+  }
+  
+  /* Define styles for the header */
+  header {
+    height: 10vh; /* 10% of the viewport height */
+    width: 100vw; /* 100% of the viewport width */
+    background-color: var(--site-color);
+    color: black; /* text color */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  /* Define styles for the main content */
+  main {
+    height: 80vh; /* 80% of the viewport height */
+    width: 100vw; /* 100% of the viewport width */
+    background-color: var(--site-color);
+    color: black; /* text color */
+    padding: 1em;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  /* Define styles for the footer */
+  footer {
+    height: 10vh; /* 10% of the viewport height */
+    width: 100vw; /* 100% of the viewport width */
+    background-color: var(--site-color);
+    color: black; /* text color */
+    text-align: center;
+  }
+  
